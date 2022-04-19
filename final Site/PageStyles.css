@@ -1,0 +1,83 @@
+@charset "UTF-8";
+body {
+  font-family: "Broadway", serif;
+  font-size: 100%;
+  color: #FFFFFF;
+  line-height: 175%;
+  margin: 0 15% 0;
+  background: #1030AD
+}
+header {
+  margin-top: 0;
+  padding: 3em 1em 2em 1em;
+  text-align: center;
+  background:
+  url(Photos/FilmR.png) left top repeat-y,
+  url(Photos/FilmR.png) right top repeat-y,
+  url(Photos/FilmR.png) 90% bottom no-repeat;
+  background-color: rgba(255,255,255,.5);
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #FF10F0;
+}
+a:visited {
+  color: #FF10F0;
+}
+a:focus, a:hover {
+  color: #FF10F0;
+  background-color: #fff;
+}
+a:active {
+  color: #FF10F0;
+  background-color: #fff;
+}
+
+h1 {
+  font: bold 1.5em Georgia, serif;
+  text-shadow: .05em .05em .1em lightslategray;
+  color: #ffff00;
+}
+h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  text-align: center;
+  color: #ffff00;
+}
+dt {
+  font-weight: bold;
+  color: #ffff00;
+  text-transform: uppercase;
+}
+strong {
+  font-style: italic;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#info p {
+  font-style: italic;
+}
+.price {
+  font-family: Georgia, serif;
+  font-style: italic;
+  color: #ffff00;
+}
+p.warning, sup {
+  font-size: small;
+}
+.label {
+  font-weight: bold;
+  font-variant: small-caps;
+  font-style: normal;
+}
+
+h2 + p {
+  text-align: center;
+  font-style: italic;
+}
