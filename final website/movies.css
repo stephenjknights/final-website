@@ -1,0 +1,50 @@
+@charset "UTF-8";
+body {
+  font-family: "Broadway", serif;
+  font-size: 75%;
+  color: #FFFFFF;
+  line-height: 175%;
+  padding: 0;
+  margin: 0 15% 0;
+  background: #1030AD
+}
+header {
+  margin-top: 0;
+  padding: 3em 1em 2em 1em;
+  text-align: center;
+  background:
+  background-color: rgba(255,255,255,.5);
+}
+ h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 5px solid #6699cc;
+    margin-top: 50px;
+  }
+  caption {
+    color: #ffff00;
+    font-size: 50px
+  }
+  center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:link {
+    color: #FF10F0;
+  }
+  a:visited {
+    color: #FF10F0;
+  }
+  a:focus, a:hover {
+    color: #FF10F0;
+    background-color: #fff;
+  }
+  a:active {
+    color: #FF10F0;
+    background-color: #fff;
+  }
